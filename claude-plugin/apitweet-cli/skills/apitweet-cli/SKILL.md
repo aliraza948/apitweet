@@ -52,7 +52,7 @@ Requires Node.js 18 or newer.
 
 ## Auth rules
 
-- API keys come from `https://apitweet.io/dashboard`.
+- API keys come from `https://apitweet.com/dashboard`.
 - For one-off commands, `APITWEET_KEY` or `--api-key` is acceptable.
 - The CLI also respects `APITWEET_BASE_URL` and `APITWEET_CONFIG_DIR`.
 - For repeated usage, prefer saved app configs with `auth apps add`.

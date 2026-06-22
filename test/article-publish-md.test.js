@@ -42,11 +42,11 @@ test("article publish-md dry-run previews the markdown publish workflow", () => 
   assert.deepEqual(
     preview.steps.map((step) => [step.name, step.method, step.url]),
     [
-      ["create_draft", "POST", "https://api.apitweet.io/api/x/articles/draft"],
-      ["set_cover", "PUT", "https://api.apitweet.io/api/x/articles/{article_id_from_step_1}/cover"],
-      ["set_title", "PUT", "https://api.apitweet.io/api/x/articles/{article_id_from_step_1}/title"],
-      ["set_content", "PUT", "https://api.apitweet.io/api/x/articles/{article_id_from_step_1}/content"],
-      ["publish", "POST", "https://api.apitweet.io/api/x/articles/{article_id_from_step_1}/publish"],
+      ["create_draft", "POST", "https://apitweet.com/api/x/articles/draft"],
+      ["set_cover", "PUT", "https://apitweet.com/api/x/articles/{article_id_from_step_1}/cover"],
+      ["set_title", "PUT", "https://apitweet.com/api/x/articles/{article_id_from_step_1}/title"],
+      ["set_content", "PUT", "https://apitweet.com/api/x/articles/{article_id_from_step_1}/content"],
+      ["publish", "POST", "https://apitweet.com/api/x/articles/{article_id_from_step_1}/publish"],
     ],
   );
   assert.equal(preview.steps[2].body.title, "Launch Notes");

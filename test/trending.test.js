@@ -34,6 +34,6 @@ test("trending tweets builds the global trending tweets request", () => {
   assert.equal(preview.method, "GET");
   assert.equal(
     preview.url,
-    "https://api.apitweet.io/api/twitter/global-trending/tweets?country=United+States&topic=Sports&content=NFL&count=50",
+    "https://apitweet.com/api/twitter/global-trending/tweets?country=United+States&topic=Sports&content=NFL&count=50",
   );
 });

@@ -80,7 +80,7 @@ Notes:
   Global options should be placed before the command.
   Saved apps store API keys and base URLs.
   Saved profiles store cookies or auth_token values for write actions.
-  Get API keys from https://apitweet.io/dashboard.
+  Get API keys from https://apitweet.com/dashboard.
   Copy the API key from the dashboard and save it with auth apps add.
 `);
 }

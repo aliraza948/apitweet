@@ -6,7 +6,7 @@ export async function performRequest(state, config, request) {
   if (!appState.apiKey && !state.dryRun) {
     const guidance = [
       "Use --api-key, set APITWEET_KEY, or configure an app with auth apps add.",
-      "Get an API key here: https://apitweet.io/dashboard",
+      "Get an API key here: https://apitweet.com/dashboard",
       'Example: apitweet auth apps add --name prod --api-key "twitterx_..."',
     ].join("\n");
     exitWithError("Missing API key.", guidance);
