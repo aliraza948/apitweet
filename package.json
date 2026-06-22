@@ -4,13 +4,13 @@
   "description": "Command-line client for apitweet APIs with saved app auth and profiles",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://apitweet.io/dashboard",
+  "homepage": "https://apitweet.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ali/apitweet.git"
   },
   "bugs": {
-    "url": "https://apitweet.io/dashboard"
+    "url": "https://apitweet.com"
   },
   "keywords": [
     "apitweet",
@@ -25,7 +25,7 @@
     "README.md"
   ],
   "bin": {
-    "apitweet": "./bin/apitweet.js"
+    "apitweet": "bin/apitweet.js"
   },
   "scripts": {
     "check": "node ./bin/apitweet.js --help",
