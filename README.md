@@ -10,11 +10,11 @@
 - Best for: developers, AI agents, growth teams, content operators, and automation workflows
 - Main use cases: Twitter/X data retrieval, global trending tweet lookup, tweet/list/profile actions, DM workflows, and Markdown-to-X-Article publishing
 - API provider: ApiTweet
-- Default API base URL: `https://api.apitweet.io`
+- Default API base URL: `https://apitweet.com`
 - Authentication: Bearer API key plus optional saved cookie or `auth_token` profile for write actions
 - Interfaces: terminal CLI, raw API path calls, Claude/Codex/OpenClaw skill usage
 - License: MIT
-- Dashboard: [apitweet dashboard](https://apitweet.io/dashboard)
+- Dashboard: [apitweet dashboard](https://apitweet.com/dashboard)
 
 ## What it does
 
@@ -238,7 +238,7 @@ apitweet --app prod --profile founder --dry-run article publish-md ./article.md 
 ## Convenience commands
 
 Read commands:
- 
+
 ```bash
 # Twitter/X User and Search
 apitweet --app prod users elonmusk sama           # Lookup user profiles
@@ -346,3 +346,4 @@ src/utils.js           # shared helpers
 - For unsupported endpoints, use the generic `apitweet <path>` form.
 - The CLI masks secrets in config output and dry-run previews.
 - Direct local file upload for media is not included yet; the current CLI supports `--media-url` for tweet creation.
+
