@@ -1,0 +1,12 @@
+{
+  "name": "apitweet-cli",
+  "version": "0.1.1",
+  "description": "Claude Code plugin that installs the apitweet skill and a slash command for apitweet workflows.",
+  "author": {
+    "name": "ali",
+    "url": "https://github.com/ali"
+  },
+  "homepage": "https://github.com/ali/apitweet",
+  "repository": "https://github.com/ali/apitweet",
+  "license": "MIT"
+}

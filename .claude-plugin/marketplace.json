@@ -1,0 +1,19 @@
+{
+  "name": "apitweet-cli",
+  "owner": {
+    "name": "ali",
+    "url": "https://github.com/aliraza948"
+  },
+  "plugins": [
+    {
+      "name": "apitweet-cli",
+      "source": "./claude-plugin/apitweet-cli",
+      "description": "Install the apitweet CLI skill and a slash command for apitweet workflows.",
+      "version": "0.1.1",
+      "author": {
+        "name": "ali",
+        "url": "https://github.com/aliraza948"
+      }
+    }
+  ]
+}
