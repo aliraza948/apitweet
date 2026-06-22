@@ -143,12 +143,12 @@ In skills-enabled environments:
 
 Get your API key from the apitweet dashboard:
 
-[apitweet dashboard](https://apitweet.io/dashboard)
+[apitweet dashboard](https://apitweet.com/dashboard)
 
 Save an app config and make a first request:
 
 ```bash
-apitweet auth apps add --name prod --api-key "twitterx_..."
+apitweet auth apps add --name prod --api-key "sk_1d90c878..."
 apitweet auth apps use prod
 apitweet --app prod about elonmusk
 ```
@@ -182,7 +182,7 @@ When a request is missing an API key, the CLI will include that URL in the error
 Save an app config:
 
 ```bash
-apitweet auth apps add --name prod --api-key "twitterx_..."
+apitweet auth apps add --name prod --api-key "sk_1d90c878..."
 apitweet auth apps list
 apitweet auth apps use prod
 ```
