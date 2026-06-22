@@ -65,7 +65,7 @@ Requires Node.js 18 or newer.
 App setup:
 
 ```bash
-apitweet auth apps add --name prod --api-key "twitterx_..."
+apitweet auth apps add --name prod --api-key "sk_1d90c878..."
 apitweet auth apps use prod
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "apitweet-cli",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Command-line client for apitweet APIs with saved app auth and profiles",
   "type": "module",
   "license": "MIT",

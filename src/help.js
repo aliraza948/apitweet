@@ -58,7 +58,7 @@ Examples:
   apitweet --profile founder tweet like 1900000000000000000
   apitweet --app prod trending tweets --country "United States" --topic "Sports" --content "NFL" --count 50
   apitweet --app prod -X POST -d '["1900000000000000000"]' /api/twitter/tweets/lookup # Twitter/X tweet lookup
-  apitweet auth apps add --name prod --api-key "twitterx_..."
+  apitweet auth apps add --name prod --api-key "sk_1d90c878..."
   apitweet auth profiles add --name founder --cookie "ct0=...; auth_token=..."
   apitweet auth cookie --auth-token "<auth_token>" --save-as founder
   apitweet config show
