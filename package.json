@@ -1,13 +1,13 @@
 {
   "name": "apitweet-cli",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Command-line client for apitweet APIs with saved app auth and profiles",
   "type": "module",
   "license": "MIT",
   "homepage": "https://apitweet.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ali/apitweet.git"
+    "url": "git+https://github.com/aliraza948/apitweet.git"
   },
   "bugs": {
     "url": "https://apitweet.com"
