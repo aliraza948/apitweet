@@ -105,7 +105,7 @@ Requires Node.js 18 or newer.
 Install from a GitHub skill installer:
 
 ```bash
-npx skills add ali/apitweet
+npx skills add aliraza948/apitweet
 ```
 
 Install from ClawHub:
